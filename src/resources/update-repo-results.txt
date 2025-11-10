@@ -1,0 +1,184 @@
+Checking dnet-hadoop
+ERROR: Directory dnet-hadoop does not exist in current directory. Skipping.
+---
+Checking eosc-explore
+Updating eosc-explore
+Using branch: master
+From https://github.com/john-shepherdson/eosc-explore
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/eosc-explore.git'
+---
+Checking eosc-metadata-harvester
+ERROR: Directory eosc-metadata-harvester does not exist in current directory. Skipping.
+---
+Checking uoa-repository-manager-service
+ERROR: Directory uoa-repository-manager-service does not exist in current directory. Skipping.
+---
+Checking uoa-repository-manager-ui
+ERROR: Directory uoa-repository-manager-ui does not exist in current directory. Skipping.
+---
+Checking simpleOaiCollectorService
+ERROR: Directory simpleOaiCollectorService does not exist in current directory. Skipping.
+---
+Checking apel
+ERROR: Directory apel does not exist in current directory. Skipping.
+---
+Checking argo-acc-library
+Updating argo-acc-library
+Using branch: main
+From https://github.com/john-shepherdson/argo-acc-library
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/argo-acc-library.git'
+---
+Checking argo-accounting
+Updating argo-accounting
+Using branch: main
+From https://github.com/john-shepherdson/argo-accounting
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/argo-accounting.git'
+---
+Checking argo-alert
+ERROR: Directory argo-alert does not exist in current directory. Skipping.
+---
+Checking argo-ams-library
+ERROR: Directory argo-ams-library does not exist in current directory. Skipping.
+---
+Checking argo-connectors
+ERROR: Directory argo-connectors does not exist in current directory. Skipping.
+---
+Checking argo-messaging
+ERROR: Directory argo-messaging does not exist in current directory. Skipping.
+---
+Checking argo-mon-library
+ERROR: Directory argo-mon-library does not exist in current directory. Skipping.
+---
+Checking argo-monitoring
+ERROR: Directory argo-monitoring does not exist in current directory. Skipping.
+---
+Checking argo-scg
+ERROR: Directory argo-scg does not exist in current directory. Skipping.
+---
+Checking argo-web-api
+ERROR: Directory argo-web-api does not exist in current directory. Skipping.
+---
+Checking poem-2
+ERROR: Directory poem-2 does not exist in current directory. Skipping.
+---
+Checking eosc-search-service
+Updating eosc-search-service
+Using branch: master
+From https://github.com/john-shepherdson/eosc-search-service
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/eosc-search-service.git'
+---
+Checking eosc-user-dashboard
+ERROR: Directory eosc-user-dashboard does not exist in current directory. Skipping.
+---
+Checking marketplace
+ERROR: Directory marketplace does not exist in current directory. Skipping.
+---
+Checking whitelabel-marketplace
+Updating whitelabel-marketplace
+Using branch: master
+From https://github.com/john-shepherdson/whitelabel-marketplace
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/whitelabel-marketplace.git'
+---
+Checking eosc-data-transfer
+ERROR: Directory eosc-data-transfer does not exist in current directory. Skipping.
+---
+Checking keycloak
+ERROR: Directory keycloak does not exist in current directory. Skipping.
+---
+Checking apricotlab
+Updating apricotlab
+Using branch: main
+From https://github.com/john-shepherdson/apricotlab
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/apricotlab.git'
+---
+Checking im
+Updating im
+Using branch: master
+From https://github.com/john-shepherdson/im
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/im.git'
+---
+Checking im-dashboard
+ERROR: Directory im-dashboard does not exist in current directory. Skipping.
+---
+Checking im-oaipmh-client
+ERROR: Directory im-oaipmh-client does not exist in current directory. Skipping.
+---
+Checking SATOSA
+ERROR: Directory SATOSA does not exist in current directory. Skipping.
+---
+Checking eosc.node-registry.demo
+Updating eosc.node-registry.demo
+Using branch: main
+From https://github.com/john-shepherdson/eosc.node-registry.demo
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/eosc.node-registry.demo.git'
+---
+Checking github-markup-scanner
+Updating github-markup-scanner
+Using branch: main
+From https://github.com/john-shepherdson/github-markup-scanner
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/github-markup-scanner.git'
+---
+Checking jupyterlab-data-mount
+ERROR: Directory jupyterlab-data-mount does not exist in current directory. Skipping.
+---
+Checking resource-catalogue
+Updating resource-catalogue
+Using branch: master
+From https://github.com/john-shepherdson/resource-catalogue
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/resource-catalogue.git'
+---
+Checking resource-catalogue-ui-eosc
+ERROR: Directory resource-catalogue-ui-eosc does not exist in current directory. Skipping.
+---
+Checking dnet-oai-server
+ERROR: Directory dnet-oai-server does not exist in current directory. Skipping.
+---
+Checking n8n
+ERROR: Directory n8n does not exist in current directory. Skipping.
+---
+Checking EPrints-OAPiwik
+ERROR: Directory EPrints-OAPiwik does not exist in current directory. Skipping.
+---
+Checking Generic-Matomo-Tracker
+ERROR: Directory Generic-Matomo-Tracker does not exist in current directory. Skipping.
+---
+Checking iis
+ERROR: Directory iis does not exist in current directory. Skipping.
+---
+Checking EPIC-API-v2
+ERROR: Directory EPIC-API-v2 does not exist in current directory. Skipping.
+---
+Checking rciam-federation-registry
+Updating rciam-federation-registry
+Using branch: master
+From https://github.com/john-shepherdson/rciam-federation-registry
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+fatal: invalid refspec 'https://github.com/john-shepherdson/rciam-federation-registry.git'
+---
+Checking fedcloudclient
+ERROR: Directory fedcloudclient does not exist in current directory. Skipping.
+---
+Checking eosc-data-transfer-client
+ERROR: Directory eosc-data-transfer-client does not exist in current directory. Skipping.
+---

@@ -1,0 +1,61 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ftr: <https://w3id.org/ftr#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix dpv: <https://w3id.org/dpv#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+<https://github.com/OSTrails/assessment-component-metadata-records/tree/main/test/CessdaPidTest.ttl> a ftr:Test ;
+    dcterms:identifier <https://github.com/OSTrails/assessment-component-metadata-records/tree/main/test/CessdaPidTest.ttl> ;
+    dcterms:title "CESSDA PID Test (17/09/2025)"^^xsd:string ;
+    rdfs:label "CessdaPidTest"^^xsd:string ;
+    vivo:abbreviation "CessdaPidTest"^^xsd:string ;
+    dcterms:description """Test if the metadata resource has a PID of the approved type. 
+ This is done by comparing the PID to the patterns (by regexp) of approved PID schemas, as specified in the [CessdaPersistentIdentifierTypes vocabulary] (https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes)
+"""^^xsd:string ;
+    dcat:keyword "FAIR"^^xsd:string, "PID"^^xsd:string ;
+    dcat:theme <http://www.fairsharing.org/ontology/subject/SRAO_0000002> ;
+    ftr:inDimension <https://doi.org/10.25504/FAIRsharing.87d197>, 
+    <https://doi.org/10.25504/FAIRsharing.3e9860>, 
+    <https://doi.org/10.25504/FAIRsharing.aff99f>, 
+    <https://doi.org/10.25504/FAIRsharing.821487>, 
+    <https://doi.org/10.25504/FAIRsharing.44faf0>, 
+    <https://doi.org/10.25504/FAIRsharing.ae22b8>, 
+    <https://doi.org/10.25504/FAIRsharing.96d4af>, 
+    <https://doi.org/10.25504/FAIRsharing.ec5648>, 
+    <https://doi.org/10.25504/FAIRsharing.dea200>, 
+    <https://doi.org/10.25504/FAIRsharing.7c4d7f>, 
+    <https://doi.org/10.25504/FAIRsharing.8e0027>, 
+    <https://doi.org/10.25504/FAIRsharing.7612c1>, 
+    <https://doi.org/10.25504/FAIRsharing.7014eb>, 
+    <https://doi.org/10.25504/FAIRsharing.4293fa>, 
+    <https://doi.org/10.25504/FAIRsharing.0c0d21>, 
+    <https://doi.org/10.25504/FAIRsharing.820324>, 
+    <https://doi.org/10.25504/FAIRsharing.e05e98>, 
+    <https://doi.org/10.25504/FAIRsharing.e226cb>, 
+    <https://doi.org/10.25504/FAIRsharing.b7f1ab>, 
+    <https://doi.org/10.25504/FAIRsharing.05f7cb>, 
+    <https://doi.org/10.25504/FAIRsharing.a2cea7> ;
+    dcat:version "0.1.0"^^xsd:string ;
+    adms:versionNotes "CessdaPidTest"^^xsd:string ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    ftr:status "Active"@en ;
+    dcat:landingPage <https://github.com/cessda/cessda.fair.tests.git> ;
+    dcat:endpointURL <https://github.com/cessda/cessda.fair.tests.git> ;
+    dcat:endpointDescription <https://github.com/cessda/cessda.fair.tests/blob/main/README.md> ;
+    doap:repository <https://github.com/cessda/cessda.fair.tests.git> ;
+    ftr:supportedBy  <https://tools.ostrails.eu/champion>; 
+    dpv:IsApplicableFor <https://schema.org/Dataset>;  
+    dcat:contactPoint  <https://orcid.org/0000-0002-4402-9644>  . 
+
+<https://orcid.org/0000-0002-4402-9644> a vcard:Individual ;
+    vcard:fn "John Shepherdson"^^xsd:string ;
+    vcard:hasEmail <mailto:john.shepherdson@cessda.eu> .
+    

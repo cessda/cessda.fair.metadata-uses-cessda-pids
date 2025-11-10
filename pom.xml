@@ -8,6 +8,7 @@
     <artifactId>cessda-fairtests</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+    <name>MetadataUsesCessdaPids</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -139,6 +140,35 @@
                 </configuration>
                 <version>3.2.5</version>
             </plugin>
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+            </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.6.0</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>cessda.fairtests.MetadataUsesCessdaPids</mainClass>
+                    </manifest>
+                </archive>
+                <descriptorRefs>
+                    <descriptorRef>jar-with-dependencies</descriptorRef>
+                </descriptorRefs>
+            </configuration>
+            <executions>
+                <execution>
+                    <id>make-assembly</id>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>single</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
         </plugins>
     </build>
 </project>

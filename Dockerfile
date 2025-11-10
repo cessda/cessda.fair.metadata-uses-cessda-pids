@@ -40,8 +40,8 @@ FROM eclipse-temurin:21-jre-alpine AS runtime
 
 # Environment variables for runtime config
 ENV APP_HOME=/opt/cessda/fair-tests \
-    APP_NAME=cessda-useselsstkeywords.jar \
-    MAIN_CLASS=cessda.fairtests.MetadataUsesCessdaElsstKeywords \
+    APP_NAME=cessda-fairtests-1.0.0-jar-with-dependencies.jar \
+    MAIN_CLASS=cessda.fairtests.MetadataUsesCessdaPids \
     CDC_URL=""
 
 WORKDIR $APP_HOME

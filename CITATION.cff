@@ -14,10 +14,10 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.000000
     description: Placeholder DOI
-repository-code: 'https://github.com/cessda/cessda.fair.tests.git'
+repository-code: 'https://github.com/cessda/cessda.fair.metadata-uses-cessda-pids.git'
 abstract: >-
-  This repository contains the source code for the CESSDA Community-spcific FAIR
-  Tests.
+  This repository contains the source code for the CESSDA Community-specific FAIR
+  Test 'MetadataUsesCessdaPids'
 keywords:
   - FAIR
   - Test
